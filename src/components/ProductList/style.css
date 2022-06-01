@@ -1,0 +1,11 @@
+.productList {
+  display: flex;
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+@media (min-width: 700px) {
+  .productList {
+    flex-wrap: wrap;
+  }
+}
